@@ -631,7 +631,7 @@ body.outlook p {
 
   table[class="body"] table.columns td,
   table[class="body"] table.column td {
-    width: 100% !important;
+    width: 100%;
   }
 
   table[class="body"] .columns td.one,
@@ -645,7 +645,7 @@ body.outlook p {
   table[class="body"] .columns td.five,
   table[class="body"] .column td.five { width: 41.666666% !important; }
   table[class="body"] .columns td.six,
-  table[class="body"] .column td.six { width: 50%; }
+  table[class="body"] .column td.six { width: 50%;}
   table[class="body"] .columns td.seven,
   table[class="body"] .column td.seven { width: 58.333333% !important; }
   table[class="body"] .columns td.eight,
@@ -794,16 +794,16 @@ body.outlook p {
         table.content img.signature { 
           width: 70% !important;
         }  
-        table.content table.twelve.columns td.six.posts {
-          width: 100% !important;
-          float: left;
-        } 
 
        } 
        @media only screen and (max-width: 600px) {
           table.content table.twelve.columns td.six.posts .post_img {
             width:95% !important;
           }
+        table.content table.twelve.columns td.six.posts {
+          width: 100%;
+          float: left;
+        }           
        }         
     </style>
   </head>
@@ -1006,5 +1006,3 @@ called Renée, or Zoë, or César, worry not – their name will come out perfec
     </table>
   </body>
 </html>
-
-
